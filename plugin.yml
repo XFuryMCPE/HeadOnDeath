@@ -1,0 +1,5 @@
+name: HeadOnDeath
+version: 1.0
+main: HeadOnDeath\Main
+api: [1.14.0]
+author: BoyIsDino
