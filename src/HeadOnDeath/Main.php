@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener{
     }
     
     public function onDeath(PlayerDeathEvent $event){
-        $event->setDrops(Item::Get(Item::, 0, 1));
+        $event->setDrops(Item::Get(Item::SKULL:3, 0, 1));
         }
 }
     public function onDisable(){
